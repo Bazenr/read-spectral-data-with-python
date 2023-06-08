@@ -1,5 +1,13 @@
 # 如何用python读取我的光谱数据？<br> How to read my spectral data with python?
-This project is currently **primarily in Chinese**. 本项目暂时以中文为主，英文随缘更新哈。
+
+</div>
+<div align="center">
+  
+简体中文 | [English](README_en.md) </p>
+
+</div>
+
+This project is currently **primarily in Chinese**.
 
 有很多朋友一直问我：python如何读取**光谱数据/高维度数据**？比如作者的近红外高光谱图像 (NIR-HSI, Near-infrared Hyperspectral Imaging) **↓**
 ![光谱图像示意图](https://github.com/Bazenr/read-spectral-data-with-python/assets/81945216/041b3c14-92db-437b-ac36-5852d08e044e "test")
