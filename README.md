@@ -3,7 +3,7 @@
 </div>
 <div align="center">
   
-简体中文 | [English](README_en.md) </p>
+简体中文 | [English](docs/README_en.md)
 
 </div>
 
