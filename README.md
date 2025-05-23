@@ -38,3 +38,23 @@ gdal 库提供了 **gdal.Open()** 函数，用于读取各种数据类型的光�
 而我和我师弟已经构建了一个简单的光谱读取函数 **read_spectral(filename, whether_print_data)**，位于文件 **spectral.py** 中，可以直接测试光谱数据读取效果。
 同时，你也可以通过将 **spectral.py** 和 **init.py** (空的也必须要) 放入其他项目根目录，在其他代码中用： <br>
 **from spectral import read_spectral** 的方式调用此函数。
+
+## tifffile 库安装
+
+python环境中
+
+`pip install tifffile`
+
+## tifffile 库的使用
+
+库的导入：
+
+`import tifffile as tiff`
+
+光谱读取（图像型光谱矩阵）：
+
+`spec_data = tiff.imread(file_path)`
+
+光谱写入（光谱维超过3通道的光谱矩阵，可以用QGIS打开可视化，无法用ENVI可视化）：
+
+`tiff.imwrite(save_path, spec_data, photometric='minisblack', planarconfig='contig')`
